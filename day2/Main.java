@@ -16,8 +16,8 @@ class Main {
             arr[k++]=data;
         }
         reader.close();
-        //System.out.println(PartOne(arr));
-        //System.out.println(PartTwo(arr));
+        PartOne(arr);
+        PartTwo(arr);
     }
 
     public static int PartOne(String[] arr) {
