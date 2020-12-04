@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class longOne {
     public static void main(String[] args) throws FileNotFoundException{
     
-        File input=new File("long.txt");
+        File input=new File("longInput.txt");
         Scanner reader=new Scanner(input);
         String data;
         int k=0;
