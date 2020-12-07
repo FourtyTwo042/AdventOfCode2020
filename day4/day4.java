@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class Main {
+public class day4 {
     public static void main(String[] args) throws IOException {
 
         System.out.println(PartTwo());

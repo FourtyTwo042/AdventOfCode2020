@@ -3,14 +3,14 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class longOne {
+class Day2 {
     public static void main(String[] args) throws FileNotFoundException{
     
-        File input=new File("longInput.txt");
+        File input=new File("input.txt");
         Scanner reader=new Scanner(input);
         String data;
         int k=0;
-        String[] arr=new String[100001];
+        String[] arr=new String[1000];
         while(reader.hasNextLine()){
             data= reader.nextLine();
             arr[k++]=data;
@@ -94,5 +94,3 @@ public class longOne {
     }
         
 }
-    
-

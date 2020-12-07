@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.FileReader;
 import java.math.BigInteger;
-class Main{
+class day3 {
     public static void main(String[] args) throws IOException{
         BigInteger ans=new BigInteger("1");
         //System.out.println(PartOne());
