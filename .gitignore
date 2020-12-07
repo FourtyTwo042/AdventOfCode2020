@@ -25,3 +25,6 @@ hs_err_pid*
 input.txt
 longInput.txt
 test.txt
+# IntelliJ files/folders
+*.iml
+.idea
